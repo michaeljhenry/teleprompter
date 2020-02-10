@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+    </head>
+    <body>
+        <title>Teleprompter</title> 
+        <div class = 'wrapper'>
+            <input type = 'button' id = 'teleprompter_button' value = 'Teleprompter'>
+        </div>
+        <div class = 'instructions'>
+            Enter your speech below in the textbox<br>
+            to have it returned in a teleprompter.
+        </div>
+        <form id = 'myForm' method = 'post'>
+            <textarea id = 'text_box' placeholder = 'Enter text..'></textarea>
+        </form>
+        
+        <input id = 'submit_btn' type = 'submit' value = 'Teleprompt me'>
+
+
+        <script src = 'app.js'></script>
+    </body>
+</html>
